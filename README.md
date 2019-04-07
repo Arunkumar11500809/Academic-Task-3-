@@ -8,11 +8,8 @@ sits on one of the chairs in the hallway and waits. If no chairs are available, 
 
 
 Description: Manage the students and helping desk
+
 project 1:the sleeping teaching assistant
-
-
-HOW TO RUN
- 1 ./test
 
 STRUCTURE
 
