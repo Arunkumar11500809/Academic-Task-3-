@@ -1,0 +1,4 @@
+How to compiie or run?
+gcc filename.c -lpthread
+
+then run ./a.out
