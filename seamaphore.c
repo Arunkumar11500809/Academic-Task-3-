@@ -3,7 +3,6 @@
 #include <string.h> // memset
 #include <pthread.h> // pthread_t, pthread_create, pthread_join
 #include <semaphore.h> // sem_init, sem_wait, sem_post
-#include <time.h>
 
 #define NUM_SEAT 3
 
@@ -143,5 +142,6 @@ void* ta_teaching()
 }
 
 void rand_sleep(void){
-	int time = rand() % SLEEP_MAX + 1;
+	int time=rand()%SLEEP_MAX+1;
+	
 	sleep(time);
